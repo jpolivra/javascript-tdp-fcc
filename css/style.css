@@ -348,4 +348,7 @@ h2.after-code {
     padding-left: 0px;
     text-align: center;
   }
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
 }
