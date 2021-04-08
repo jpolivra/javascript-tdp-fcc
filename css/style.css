@@ -326,3 +326,26 @@ h2.after-code {
   }
 
 }
+
+@media (max-width: 575.98px) {
+  div#nav-clone {
+    display: none;
+  }
+  nav#navbar {
+    height: 200px;
+    width: 100%;
+    position: static;
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #1e2328;
+  }
+  main {
+    flex-direction: column;
+  }
+  nav ul li {
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+  }
+}
